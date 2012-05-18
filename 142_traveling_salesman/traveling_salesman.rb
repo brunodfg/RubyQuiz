@@ -21,8 +21,14 @@ module RubyQuizSolvers
      end
   end
 
-  # Solver for RubyQuiz problem 142 - Itinerary for a Traveling Salesman. http://www.rubyquiz.com/quiz142.html
+  # Solver for RubyQuiz problem 142 - Itinerary for a Traveling Salesman.
+  # => http://www.rubyquiz.com/quiz142.html
+  #
   # This solution uses a genetic algorithm with randomly selected genetic operators to search for a solution
+  # 
+  # Created by Bruno Gonçalves <brunodfg@gmail.com>
+  # Created on 10/05/2012
+  #
   class TravelingSalesmanSolver
 
       POPULATION_SIZE = 100
